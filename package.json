@@ -1,0 +1,21 @@
+{
+  "name": "perez-parking-api",
+  "version": "1.0.0",
+  "description": "API for Perez Parking App",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon ./app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3",
+    "lodash": "^4.17.21",
+    "sequelize": "^6.19.0",
+    "sqlite3": "^5.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
